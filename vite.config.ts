@@ -5,6 +5,7 @@ import { componentTagger as myTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: '/dropschemicals/',
   server: {
     host: "::",
     port: 8080,
